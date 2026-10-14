@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Shahad's personal web development portfolio">
+    <title>Shahad | Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="site-header">
+        <div class="container header-inner">
+            <a href="#home" class="logo">Shahad<span>.</span></a>
+
+            <nav class="site-nav" aria-label="Main navigation">
+                <a href="#home" data-i18n="navHome">Home</a>
+                <a href="#about" data-i18n="navAbout">About</a>
+                <a href="#skills" data-i18n="navSkills">Skills</a>
+                <a href="#projects" data-i18n="navProjects">Projects</a>
+                <a href="#hobbies" data-i18n="navHobbies">Hobbies</a>
+                <a href="#contact" data-i18n="navContact">Contact</a>
+            </nav>
+
+            <div class="header-actions">
+                <button class="small-button" id="languageToggle" type="button"
+                        aria-label="Switch language">
+                    عربي
+                </button>
+
+                <button class="small-button theme-button" id="themeToggle"
+                        type="button">
+                    <span id="themeIcon" aria-hidden="true">☾</span>
+                    <span id="themeLabel" data-i18n="darkMode">Dark</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero -->
+        <section class="hero section-anchor" id="home">
+            <div class="container hero-layout">
+                <div class="hero-copy">
+                    <p class="eyebrow" data-i18n="heroEyebrow">
+                        HELLO, I'M SHAHAD
+                    </p>
+
+                    <h1>
+                        <span data-i18n="heroLine1">Computer Engineer</span>
+                        <span class="accent-text" data-i18n="heroLine2">
+                            Exploring the World of Technology.
+                        </span>
+                    </h1>
+
+                    <p class="hero-description" data-i18n="heroDescription">
+                        I'm a Computer Engineering graduate with a background in software development, IT support, and computer networks. I'm building my skills in web development, cybersecurity, with an interest in creating practical and reliable technology solutions.
+                    </p>
+
+                    <div class="hero-actions">
+                        <a href="#projects" class="button button-primary"
+                           data-i18n="viewProjects">
+                            View Projects
+                        </a>
+
+                        <a href="#contact" class="button button-outline"
+                           data-i18n="contactMe">
+                            Contact Me
+                        </a>
+                    </div>
+
+                    <div class="hero-social">
+                      <span class="social-line"></span>
+
+                        <a href="https://www.instagram.com/shahad_tawalbeh/" aria-label="Instagram" target="_blank">◎</a>
+                        <a href="https://www.linkedin.com/in/shahadtawalbeh/" aria-label="LinkedIn" target="_blank">in</a>
+                        <a href="https://github.com/shahadtawalbeh-hash" aria-label="GitHub" target="_blank">GH</a>
+                   </div>
+
+                </div>
+
+                <div class="hero-visual">
+                    <div class="visual-backdrop"></div>
+
+                    <div class="visual-label">
+                        <p data-i18n="heroGreeting">Hi, my name is</p>
+                        <h2>Shahad<span>.</span></h2>
+                        <p data-i18n="heroRole">Computer Engineer</p>
+                    </div>
+
+                    <div class="profile-frame">
+                        <img
+                            id="profileImage"
+                            src="assets/profile1.jpeg"
+                            alt="Portrait of Shahad"
+                        >
+                    </div>
+
+                    <button class="photo-switch" id="photoToggle" type="button">
+                        <span aria-hidden="true">↻</span>
+                        <span data-i18n="changePhoto">Change photo</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- About -->
+        <section class="section about-section section-anchor" id="about">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow" data-i18n="aboutEyebrow">GET TO KNOW ME</p>
+                    <h2 data-i18n="aboutTitle">About Me</h2>
+                    <p class="section-description" data-i18n="aboutDescription">
+                        A little introduction about who I am and what I do.
+                    </p>
+                </div>
+
+                <div class="about-layout">
+                    <div class="about-mark" aria-hidden="true">S<span>.</span></div>
+
+                    <div class="about-text">
+                        <h3 data-i18n="aboutSubtitle">
+                            Learning, building, and growing.
+                        </h3>
+
+                        <p data-i18n="aboutParagraph1">
+                           I am a Computer Engineering graduate from Yarmouk University with a strong foundation in programming, software engineering, databases, and computer networks. I enjoy solving problems, exploring new technologies, and building practical software solutions.
+                        </p>
+
+                        <p data-i18n="aboutParagraph2">
+                            My experience includes developing academic projects using Python, C#, .NET, SQL Server, and web technologies, along with hands-on exposure to IT systems and application support. I am also expanding my skills in web development, ASP.NET, Linux, and cybersecurity. I am passionate about continuous learning and eager to grow as an engineer while contributing to meaningful technology projects.
+                        </p>
+
+                        <div class="about-facts">
+                            <div>
+                                <span class="fact-symbol">01</span>
+                                <p data-i18n="aboutFact1">Always learning</p>
+                            </div>
+                            <div>
+                                <span class="fact-symbol">02</span>
+                                <p data-i18n="aboutFact2">Creative thinking</p>
+                            </div>
+                            <div>
+                                <span class="fact-symbol">03</span>
+                                <p data-i18n="aboutFact3">Problem solving</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills -->
+        
+<section id="skills" class="skills-section">
+    <div class="section-heading">
+        <p class="section-eyebrow" data-i18n="skillsEyebrow">MY TOOLKIT</p>
+        <h2 data-i18n="skillsTitle">Skills & Technologies</h2>
+        <p data-i18n="skillsDescription">
+            The technologies and tools I'm learning and using.
+        </p>
+    </div>
+
+    <div class="skills-grid">
+
+        <!-- Skill 01: HTML -->
+        <article class="skill-card">
+            <span class="skill-number">01</span>
+            <div class="skill-icon html-icon">5</div>
+            <h3>HTML5</h3>
+            <p data-i18n="htmlDescription">
+                Building the structure of web pages.
+            </p>
+            <span class="skill-tag" data-i18n="htmlTag">Structure</span>
+        </article>
+
+        <!-- Skill 02: CSS -->
+        <article class="skill-card">
+            <span class="skill-number">02</span>
+            <div class="skill-icon css-icon">3</div>
+            <h3>CSS3</h3>
+            <p data-i18n="cssDescription">
+                Styling pages and creating responsive layouts.
+            </p>
+            <span class="skill-tag" data-i18n="cssTag">Design</span>
+        </article>
+
+        <!-- Skill 03: JavaScript -->
+        <article class="skill-card">
+            <span class="skill-number">03</span>
+            <div class="skill-icon js-icon">JS</div>
+            <h3>JavaScript</h3>
+            <p data-i18n="jsDescription">
+                Adding interaction and dynamic behavior.
+            </p>
+            <span class="skill-tag" data-i18n="jsTag">Interaction</span>
+        </article>
+
+        <!-- Skill 04: Git -->
+        <article class="skill-card">
+            <span class="skill-number">04</span>
+            <div class="skill-icon git-icon">G</div>
+            <h3>Git</h3>
+            <p data-i18n="gitDescription">
+                Tracking changes and managing project versions.
+            </p>
+            <span class="skill-tag" data-i18n="gitTag">Version Control</span>
+        </article>
+
+        <!-- Skill 05: C# -->
+        <article class="skill-card">
+            <span class="skill-number">05</span>
+            <div class="skill-icon csharp-icon">C#</div>
+            <h3>C#</h3>
+            <p data-i18n="csharpDescription">
+                Writing programs and implementing programming logic.
+            </p>
+            <span class="skill-tag" data-i18n="csharpTag">Programming</span>
+        </article>
+
+        <!-- Skill 06: ASP.NET -->
+        <article class="skill-card">
+            <span class="skill-number">06</span>
+            <div class="skill-icon dotnet-icon">.NET</div>
+            <h3>ASP.NET</h3>
+            <p data-i18n="aspnetDescription">
+                Learning to build web applications using .NET.
+            </p>
+            <span class="skill-tag" data-i18n="aspnetTag">Web Framework</span>
+        </article>
+
+        <!-- Skill 07: SQL -->
+        <article class="skill-card">
+            <span class="skill-number">07</span>
+            <div class="skill-icon sql-icon">SQL</div>
+            <h3>SQL</h3>
+            <p data-i18n="sqlDescription">
+                Working with databases, queries, and data.
+            </p>
+            <span class="skill-tag" data-i18n="sqlTag">Databases</span>
+        </article>
+
+        <!-- Skill 08: Linux -->
+        <article class="skill-card">
+            <span class="skill-number">08</span>
+            <div class="skill-icon linux-icon">L</div>
+            <h3>Linux</h3>
+            <p data-i18n="linuxDescription">
+                Using the Linux command line and system tools.
+            </p>
+            <span class="skill-tag" data-i18n="linuxTag">Operating System</span>
+        </article>
+
+    </div>
+</section>
+
+
+        <!-- Projects -->
+        <section class="section projects-section section-anchor" id="projects">
+            <div class="container">
+                <div class="section-heading heading-with-link">
+                    <div>
+                        <p class="eyebrow" data-i18n="projectsEyebrow">
+                            SELECTED WORK
+                        </p>
+                        <h2 data-i18n="projectsTitle">Featured Projects</h2>
+                        <p class="section-description" data-i18n="projectsDescription">
+                            A selection of projects from my learning journey.
+                        </p>
+                    </div>
+
+                    <span class="project-count">00 — 04</span>
+                </div>
+
+                <div class="projects-grid">
+                    
+                    <article class="project-card">
+                       <div class="project-image project-image-two">
+                          <img src="assets/electricity-portal.png"
+                           alt="Electricity Meter Portal web application preview"
+                            onerror="this.style.display='none'">
+                               <span class="project-overlay-number">00</span>
+                         </div>
+
+                    <div class="project-info">
+                            <div class="project-meta">
+                            <span>ASP.NET Core MVC</span>
+                            <span>C#</span>
+                            <span>SQL Server</span>
+                          </div>
+
+                        <h3 data-i18n="project2Title">Electricity Meter Portal</h3>
+
+                        <p data-i18n="project2Description">
+                          A web application for submitting, tracking, and managing
+                          electricity meter requests.
+                        </p>
+
+                       <a class="project-link"
+                          href="https://github.com/shahadtawalbeh-hash/ElectricityMeterPortal"
+                          target="_blank"
+                          rel="noopener noreferrer">
+                         <span data-i18n="projectLink">View Project</span>
+                         <span aria-hidden="true">↗</span>
+                       </a>
+                   </div>
+              </article>
+
+<article class="project-card">
+    <div class="project-image project-image-two">
+        <img src="assets/project01.jpeg"
+             alt="HTML fundamentals exercises project preview"
+             onerror="this.style.display='none'">
+        <span class="project-overlay-number">01</span>
+    </div>
+
+    <div class="project-info">
+        <div class="project-meta">
+            <span>HTML5</span>
+            <span>Semantic HTML</span>
+            <span>Forms &amp; Accessibility</span>
+        </div>
+
+        <h3 data-i18n="project3Title">
+            HTML Fundamentals — Practical Exercises
+        </h3>
+
+        <p data-i18n="project3Description">
+            Six practical HTML exercises covering page structure, links, tables, forms, and semantic HTML.
+        </p>
+
+        <a class="project-link"
+           href="https://github.com/shahadtawalbeh-hash/project01"
+           target="_blank"
+           rel="noopener noreferrer">
+            <span data-i18n="projectLink">View Project</span>
+            <span aria-hidden="true">↗</span>
+        </a>
+    </div>
+</article>
+
+<article class="project-card">
+    <div class="project-image project-image-two">
+        <img src="assets/project02.png"
+             alt="CSS styling and layout project preview"
+             onerror="this.style.display='none'">
+        <span class="project-overlay-number">02</span>
+    </div>
+
+    <div class="project-info">
+        <div class="project-meta">
+            <span>CSS3</span>
+            <span>Flexbox</span>
+            <span>Animations</span>
+        </div>
+
+        <h3 data-i18n="project4Title">CSS Layout &amp; Visual Design</h3>
+
+        <p data-i18n="project4Description">
+            A CSS-focused project showcasing responsive layouts, positioning,
+            visual design, box modeling, and interactive animations.
+        </p>
+
+        <a class="project-link"
+           href="https://github.com/shahadtawalbeh-hash/project02"
+           target="_blank"
+           rel="noopener noreferrer">
+            <span data-i18n="projectLink">View Project</span>
+            <span aria-hidden="true">↗</span>
+        </a>
+    </div>
+</article>
+
+<article class="project-card">
+    <div class="project-image project-image-two">
+        <img src="assets/project03.png"
+             alt="JavaScript interactive applications project preview"
+             onerror="this.style.display='none'">
+        <span class="project-overlay-number">03</span>
+    </div>
+
+    <div class="project-info">
+        <div class="project-meta">
+            <span>JavaScript</span>
+            <span>DOM Manipulation</span>
+            <span>Event Handling</span>
+        </div>
+
+        <h3 data-i18n="project5Title">JavaScript &amp; Interactive Applications</h3>
+
+        <p data-i18n="project5Description">
+            A JavaScript project covering programming logic, DOM manipulation,
+            event handling, and dynamic task management.
+        </p>
+
+        <a class="project-link"
+           href="https://github.com/shahadtawalbeh-hash/project03js"
+           target="_blank"
+           rel="noopener noreferrer">
+            <span data-i18n="projectLink">View Project</span>
+            <span aria-hidden="true">↗</span>
+        </a>
+    </div>
+</article>
+
+<article class="project-card">
+    <div class="project-image project-image-two">
+        <img src="assets/cv-fitboard.jpeg"
+             alt="CV Fitboard intelligent recruitment platform preview"
+             onerror="this.style.display='none'">
+        <span class="project-overlay-number">04</span>
+    </div>
+
+    <div class="project-info">
+        <div class="project-meta">
+            <span>Python</span>
+            <span>FastAPI</span>
+            <span>AI Integration</span>
+        </div>
+
+        <h3 data-i18n="project6Title">CV Fitboard — AI Recruitment Platform</h3>
+
+        <p data-i18n="project6Description">
+            An AI-powered recruitment platform for CV analysis, job matching,
+            candidate ranking, and personalized training recommendations.
+        </p>
+
+        <a class="project-link"
+           href="https://github.com/shahadtawalbeh-hash/cv-analyzer"
+           target="_blank"
+           rel="noopener noreferrer">
+            <span data-i18n="projectLink">View Project</span>
+            <span aria-hidden="true">↗</span>
+        </a>
+    </div>
+</article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Hobbies -->
+        <section class="section hobbies-section section-anchor" id="hobbies">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow" data-i18n="hobbiesEyebrow">
+                        LIFE BEYOND CODE
+                    </p>
+                    <h2 data-i18n="hobbiesTitle">My Hobbies</h2>
+                    <p class="section-description" data-i18n="hobbiesDescription">
+                        Things that inspire me outside of programming.
+                    </p>
+                </div>
+
+                <div class="hobbies-grid">
+                    <article class="hobby-card">
+                        <span class="hobby-icon" aria-hidden="true">📚</span>
+                        <span class="hobby-index">01</span>
+                        <h3 data-i18n="hobby1Title">Learning</h3>
+                        <p data-i18n="hobby1Description">
+                            Discovering new ideas and developing my knowledge.
+                        </p>
+                    </article>
+
+                    <article class="hobby-card">
+                        <span class="hobby-icon" aria-hidden="true">💻</span>
+                        <span class="hobby-index">02</span>
+                        <h3 data-i18n="hobby2Title">Coding</h3>
+                        <p data-i18n="hobby2Description">
+                            Practicing programming and building small projects.
+                        </p>
+                    </article>
+
+                    <article class="hobby-card">
+                        <span class="hobby-icon" aria-hidden="true">🎨</span>
+                        <span class="hobby-index">03</span>
+                        <h3 data-i18n="hobby3Title">Creativity</h3>
+                        <p data-i18n="hobby3Description">
+                            Exploring creative ideas and visual inspiration.
+                        </p>
+                    </article>
+
+                    <article class="hobby-card">
+                        <span class="hobby-icon" aria-hidden="true">🎵</span>
+                        <span class="hobby-index">04</span>
+                        <h3 data-i18n="hobby4Title">Music</h3>
+                        <p data-i18n="hobby4Description">
+                            Listening to music and relaxing in my free time.
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section class="section contact-section section-anchor" id="contact">
+            <div class="container contact-layout">
+                <div class="contact-copy">
+                    <p class="eyebrow" data-i18n="contactEyebrow">
+                        HAVE A PROJECT IN MIND?
+                    </p>
+
+                    <h2 data-i18n="contactTitle">Let's work together.</h2>
+
+                    <p class="section-description" data-i18n="contactDescription">
+                        Have a question or want to connect? Send me a message.
+                    </p>
+
+                    <div class="contact-detail">
+                        <span class="contact-detail-icon" aria-hidden="true">@</span>
+                        <div>
+                            <span class="detail-label" data-i18n="emailLabel">Email</span>
+                            <a href="mailto:shahadtawalbeh@gmail.com">
+                                shahadtawalbeh@gmail.com
+                            </a>
+                        </div>
+                    </div>
+
+                    <p class="contact-note" data-i18n="contactNote">
+                        I'd be happy to hear from you!
+                    </p>
+                </div>
+
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="contactName" data-i18n="nameLabel">Your Name</label>
+                        <input
+                            type="text"
+                            id="contactName"
+                            name="name"
+                            placeholder="Enter your name"
+                            data-i18n-placeholder="namePlaceholder"
+                            required
+                        >
+                    </div>
+
+                    <div class="form-group">
+                        <label for="contactEmail" data-i18n="emailFieldLabel">
+                            Your Email
+                        </label>
+                        <input
+                            type="email"
+                            id="contactEmail"
+                            name="email"
+                            placeholder="Enter your email"
+                            data-i18n-placeholder="emailPlaceholder"
+                            required
+                        >
+                    </div>
+
+                    <div class="form-group">
+                        <label for="contactMessage" data-i18n="messageLabel">
+                            Your Message
+                        </label>
+                        <textarea
+                            id="contactMessage"
+                            name="message"
+                            rows="5"
+                            placeholder="Write your message here..."
+                            data-i18n-placeholder="messagePlaceholder"
+                            required
+                        ></textarea>
+                    </div>
+
+                    <button class="button button-primary submit-button" type="submit">
+                        <span data-i18n="sendMessage">Send Message</span>
+                        <span aria-hidden="true">↗</span>
+                    </button>
+
+                    <p class="form-feedback" id="formFeedback" role="status"
+                       aria-live="polite"></p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container footer-top">
+            <a href="#home" class="logo">Shahad<span>.</span></a>
+
+            <p data-i18n="footerText">
+                Designed and built with HTML, CSS, and JavaScript.
+            </p>
+
+            <a href="#home" class="back-to-top" data-i18n="backToTop">
+                Back to top ↑
+            </a>
+        </div>
+
+        <div class="container footer-bottom">
+            <p>© 2026 Shahad. <span data-i18n="rights">All rights reserved.</span></p>
+            <p data-i18n="footerMade">Made with care.</p>
+        </div>
+    </footer>
+</body>
+</html>

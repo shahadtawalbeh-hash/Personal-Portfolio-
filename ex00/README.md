@@ -1,41 +1,30 @@
-echo "# CV Fitboard - AI Recruitment Platform" > README.md
-echo "" >> README.md
-echo "## About the Project" >> README.md
-echo "CV Fitboard is an AI-powered recruitment platform designed to simplify hiring by analyzing CVs, matching candidates with jobs, ranking applicants, and recommending training." >> README.md
-echo "" >> README.md
-echo "## Features" >> README.md
-echo "- CV Analysis" >> README.md
-echo "- Candidate Profiles" >> README.md
-echo "- Job Matching" >> README.md
-echo "- Candidate Ranking" >> README.md
-echo "- Training Recommendations" >> README.md
-echo "- Employer Portal" >> README.md
-echo "- Authentication and Security" >> README.md
-echo "" >> README.md
-echo "## Technologies Used" >> README.md
-echo "- Python" >> README.md
-echo "- FastAPI" >> README.md
-echo "- SQLite" >> README.md
-echo "- SQLAlchemy" >> README.md
-echo "- OpenAI API (GPT-4o-mini)" >> README.md
-echo "- PyPDF" >> README.md
-echo "- HTML, CSS, JavaScript, and Jinja2" >> README.md
-echo "" >> README.md
-echo "## Installation and Setup" >> README.md
-echo '1. Clone the repository: git clone https://github.com/shahadtawalbeh-hash/cv-analyzer.git' >> README.md
-echo "2. Navigate to the project directory: cd cv-analyzer" >> README.md
-echo "3. Create a virtual environment: python -m venv venv" >> README.md
-echo "4. Activate the virtual environment." >> README.md
-echo "5. Install dependencies: pip install -r requirements.txt" >> README.md
-echo "6. Configure the required environment variables, including your OpenAI API key." >> README.md
-echo "7. Run the application using its configured startup command." >> README.md
-echo "" >> README.md
-echo "## Project Goal" >> README.md
-echo "The goal of CV Fitboard is to make candidate evaluation more efficient and connect candidates with suitable job opportunities using AI." >> README.md
-echo "" >> README.md
-echo "## Developer" >> README.md
-echo "Shahad Tawalbeh" >> README.md
-echo "GitHub: https://github.com/shahadtawalbeh-hash" >> README.md
-echo "" >> README.md
-echo "## License" >> README.md
-echo "This project was developed for educational and portfolio purposes." >> README.md
+echo “# Personal Portfolio” > README.md
+echo “” >> README.md
+echo “## About the Project” >> README.md
+echo “This is a personal portfolio website created to introduce myself, showcase my technical skills, present my projects, and provide a way to contact me.” >> README.md
+echo “” >> README.md
+echo “## Features” >> README.md
+echo “The portfolio includes an introduction section, an About Me section, a skills grid, a project showcase, hobbies, a contact form, and a footer.” >> README.md
+echo “” >> README.md
+echo “## Technologies Used” >> README.md
+echo “HTML5 is used to structure the website content.” >> README.md
+echo “CSS3 is used for styling, layout, animations, and responsive design.” >> README.md
+echo “JavaScript is used to add interactivity and handle website functionality.” >> README.md
+echo “” >> README.md
+echo “## Project Structure” >> README.md
+echo “index.html contains the website structure and content.” >> README.md
+echo “style.css contains the website styles and responsive layout.” >> README.md
+echo “script.js handles interactive features and functionality.” >> README.md
+echo “assets/ contains images and other resources used in the portfolio.” >> README.md
+echo “” >> README.md
+echo “## Responsive Design” >> README.md
+echo “The website is designed to adapt to different screen sizes, including desktop computers, tablets, and mobile devices.” >> README.md
+echo “” >> README.md
+echo “## Projects” >> README.md
+echo “The project showcase presents personal and practical projects, including links to project repositories and relevant screenshots.” >> README.md
+echo “” >> README.md
+echo “## Contact” >> README.md
+echo “Visitors can use the contact section to get in touch.” >> README.md
+echo “” >> README.md
+echo “## Development” >> README.md
+echo “This portfolio was built from scratch using HTML, CSS, and JavaScript without external website templates or CSS frameworks.” >> README.md

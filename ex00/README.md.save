@@ -1,0 +1,30 @@
+echo “# Personal Portfolio” > README.md
+echo “” >> README.md
+echo “## About the Project” >> README.md
+echo “This is a personal portfolio website created to introduce myself, showcase my technical skills, present my projects, and provide a way to contact me.” >> README.md
+echo “” >> README.md
+echo “## Features” >> README.md
+echo “The portfolio includes an introduction section, an About Me section, a skills grid, a project showcase, hobbies, a contact form, and a footer.” >> README.md
+echo “” >> README.md
+echo “## Technologies Used” >> README.md
+echo “HTML5 is used to structure the website content.” >> README.md
+echo “CSS3 is used for styling, layout, animations, and responsive design.” >> README.md
+echo “JavaScript is used to add interactivity and handle website functionality.” >> README.md
+echo “” >> README.md
+echo “## Project Structure” >> README.md
+echo “index.html contains the website structure and content.” >> README.md
+echo “style.css contains the website styles and responsive layout.” >> README.md
+echo “script.js handles interactive features and functionality.” >> README.md
+echo “assets/ contains images and other resources used in the portfolio.” >> README.md
+echo “” >> README.md
+echo “## Responsive Design” >> README.md
+echo “The website is designed to adapt to different screen sizes, including desktop computers, tablets, and mobile devices.” >> README.md
+echo “” >> README.md
+echo “## Projects” >> README.md
+echo “The project showcase presents personal and practical projects, including links to project repositories and relevant screenshots.” >> README.md
+echo “” >> README.md
+echo “## Contact” >> README.md
+echo “Visitors can use the contact section to get in touch.” >> README.md
+echo “” >> README.md
+echo “## Development” >> README.md
+echo “This portfolio was built from scratch using HTML, CSS, and JavaScript without external website templates or CSS frameworks.” >> 

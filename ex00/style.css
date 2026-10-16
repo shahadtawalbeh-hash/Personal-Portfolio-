@@ -323,11 +323,13 @@ img {
 
 .visual-backdrop {
     position: absolute;
-    top: 12%;
-    right: 0;
-    width: 78%;
-    height: 72%;
+    top: 18%;
+    right: 10%;
+    width: 55%;
+    aspect-ratio: 1 /1;
+    height: auto;
     background: #58367e;
+    border-radius: 50%;
 }
 
 .profile-frame {

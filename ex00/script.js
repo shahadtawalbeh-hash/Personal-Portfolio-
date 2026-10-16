@@ -167,7 +167,7 @@ const translations = {
         hobbiesEyebrow: "LIFE BEYOND CODE",
         hobbiesTitle: "My Hobbies",
         hobbiesDescription:
-            "Things that inspire me outside of programming.",
+            "Things that inspire me.",
         hobby1Title: "Learning",
         hobby1Description:
             "Discovering new ideas and developing my knowledge.",
@@ -222,12 +222,12 @@ const translations = {
         heroLine2: "أستكشف عالم التكنولوجيا.",
         heroDescription: "أنا خريجة هندسة حاسوب، ولدي خلفية في تطوير البرمجيات ودعم تقنية المعلومات وشبكات الحاسوب. أعمل على تطوير مهاراتي في تطوير الويب والأمن السيبراني, وأسعى إلى بناء حلول تقنية عملية وموثوقة.",
         viewProjects: "مشاريعي",
-        contactMe: "تواصلي معي",
+        contactMe: "تواصل معي",
         heroGreeting: "مرحباً، اسمي",
         heroRole: "مهندسة حاسوب",
         changePhoto: "تغيير الصورة",
 
-        aboutEyebrow: "تعرّفي عليّ",
+        aboutEyebrow: "تعرّف عليّ",
         aboutTitle: "نبذة عني",
         aboutDescription: "تعريف بسيط عني وعن مجالات عملي واهتماماتي.",
         aboutSubtitle: "أتعلم، وأبني، وأتطور.",
@@ -295,7 +295,7 @@ const translations = {
         hobbiesEyebrow: "حياتي خارج البرمجة",
         hobbiesTitle: "هواياتي",
         hobbiesDescription:
-            "أشياء تلهمني وأستمتع بها بعيدًا عن البرمجة.",
+            "أشياء تلهمني وأستمتع بها.",
         hobby1Title: "التعلم",
         hobby1Description:
             "اكتشاف أفكار جديدة وتطوير معرفتي.",
@@ -312,15 +312,15 @@ const translations = {
         contactEyebrow: "هل لديك فكرة لمشروع؟",
         contactTitle: "لنعمل معًا.",
         contactDescription:
-            "إذا كان لديك سؤال أو رغبت بالتواصل، أرسلي لي رسالة.",
+            "إذا كان لديك سؤال أو رغبت بالتواصل، أرسل لي رسالة.",
         emailLabel: "البريد الإلكتروني",
         contactNote: "يسعدني أن أسمع منك!",
         nameLabel: "اسمك",
         emailFieldLabel: "بريدك الإلكتروني",
         messageLabel: "رسالتك",
-        namePlaceholder: "اكتبي اسمك",
-        emailPlaceholder: "اكتبي بريدك الإلكتروني",
-        messagePlaceholder: "اكتبي رسالتك هنا...",
+        namePlaceholder: "اكتب اسمك",
+        emailPlaceholder: "اكتب بريدك الإلكتروني",
+        messagePlaceholder: "اكتب رسالتك هنا...",
         sendMessage: "إرسال الرسالة",
 
         footerText: "تم تصميم الموقع باستخدام HTML وCSS وJavaScript.",

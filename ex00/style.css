@@ -321,16 +321,7 @@ img {
     justify-content: center;
 }
 
-.visual-backdrop {
-    position: absolute;
-    top: 18%;
-    right: 10%;
-    width: 55%;
-    aspect-ratio: 1 /1;
-    height: auto;
-    background: #58367e;
-    border-radius: 50%;
-}
+
 
 .profile-frame {
     position: relative;
